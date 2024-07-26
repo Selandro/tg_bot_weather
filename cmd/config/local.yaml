@@ -4,5 +4,6 @@ weather_api:
   base_url: "http://api.weatherapi.com/v1/current.json"
 telegram_bot:
   telegram_bot_token: YOUR_TELEGRAM_BOT_TOKEN
-gigachat: YOUR_GIGACHAT_API_KEY
-  api_key:  "https://gigachat.devices.sberbank.ru/api/v1/chat/completions"
+gigachat: 
+  api_key:  YOUR_GIGACHAT_API_KEY
+  base_url: "https://gigachat.devices.sberbank.ru/api/v1/chat/completions"
